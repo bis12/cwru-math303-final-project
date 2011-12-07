@@ -1,12 +1,11 @@
 /* font _by [Caroline Hadilaksono](http://www.hadilaksono.com) & [Micah Rich](http://micahrich.com)_ */
 @font-face {
     font-family: "League Gothic";
-    src: url(League_Gothic-webfont.eot)  format(eot),
-         url(League_Gothic-webfont.woff) format(woff),
-         url(League_Gothic-webfont.ttf)  format(truetype),
-         url(League_Gothic-webfont.svg)  format(svg);
+    src: url("League_Gothic-webfont.eot")  format("eot"),
+         url("League_Gothic-webfont.woff") format("woff"),
+         url("League_Gothic-webfont.ttf")  format("truetype"),
+         url("League_Gothic-webfont.svg")  format("svg");
 }
-
 
 body {
     font-family: "Helvetica";
@@ -95,4 +94,36 @@ pre {
 	text-shadow: none;
 	border: 1px solid #777;
 
+}
+
+div#convo{
+	margin-top: 10%;
+	font-size: 800%;
+}
+
+img#mersen {
+	position: relative;
+	top: 20px;
+}
+
+div#convo span {
+	position: relative;
+	top: -100px;
+}
+
+div.bigt {
+	margin-top: 5%;
+	font-size: 1000%;
+}
+
+div.tiny {
+	margin-top: -10%;
+	font-size: 10%;
+}
+
+.proof {
+	display: block;
+	text-align: center;
+	line-height: 1.9em;
+	font-size: 1.2em;
 }
